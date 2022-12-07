@@ -1,0 +1,15 @@
+Load in useul packages
+```{r warning=FALSE}
+library(sf)
+library(tidyverse)
+library(here)
+library(janitor)
+library(countrycode)
+```
+
+Read in data
+```{r}
+HDR <- read_csv(here("homework4_data","HDR21-22_Composite_indices_complete_time_series.csv"))
+World <- 
+```
+
